@@ -14,9 +14,4 @@
       <initValue>'20'</initValue>
       <name>G_Timeout</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/Users/blezel/Downloads/Katalon_Studio_Automation_TodoApp/Testdata.xlsx'</initValue>
-      <name>G_TestData</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

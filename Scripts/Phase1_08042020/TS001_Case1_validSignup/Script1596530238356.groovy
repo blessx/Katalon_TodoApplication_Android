@@ -33,12 +33,12 @@ Mobile.tap(findTestObject('SignupScreen/btnToRegisterScreen'),10)
 'This is to input valid username on the name field'
 Mobile.tap(findTestObject('Object Repository/SignupScreen/signUpNameField'),10)
 AndroidDriver<?> driverName = (AndroidDriver<?>) MobileDriverFactory.getDriver()
-driverName.getKeyboard().sendKeys("user5")
+driverName.getKeyboard().sendKeys("user10")
 
 'This is to input valid user email address on the mail field'
 Mobile.tap(findTestObject('Object Repository/SignupScreen/signUpEmailField'),10)
 AndroidDriver<?> driverEmail = (AndroidDriver<?>) MobileDriverFactory.getDriver()
-driverEmail.getKeyboard().sendKeys("user5@sample.com")
+driverEmail.getKeyboard().sendKeys("user10@sample.com")
 
 'This is to input valid user password on the password field'
 Mobile.tap(findTestObject('Object Repository/SignupScreen/signUpPasswordField'),10)

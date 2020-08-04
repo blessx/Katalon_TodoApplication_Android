@@ -19,11 +19,6 @@ public class GlobalVariable {
      */
     public static Object G_Timeout
      
-    /**
-     * <p></p>
-     */
-    public static Object G_TestData
-     
 
     static {
         try {
@@ -33,7 +28,6 @@ public class GlobalVariable {
     
             G_AndroidApp = selectedVariables['G_AndroidApp']
             G_Timeout = selectedVariables['G_Timeout']
-            G_TestData = selectedVariables['G_TestData']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
