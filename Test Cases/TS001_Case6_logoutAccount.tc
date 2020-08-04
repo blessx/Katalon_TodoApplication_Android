@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case6_logoutAccount</name>
+   <tag></tag>
+   <comment>Story: To verify the logout function
+Successfully logs out the account</comment>
+   <testCaseGuid>1d30df28-a545-4990-b657-8ef842cda78d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case5_openDoneTask</name>
+   <tag></tag>
+   <comment>Story: To verify the logout function
+Successfully logs out the account</comment>
+   <testCaseGuid>bb3d0f6f-3cc2-47dc-88d2-9204cf7b2e75</testCaseGuid>
+</TestCaseEntity>

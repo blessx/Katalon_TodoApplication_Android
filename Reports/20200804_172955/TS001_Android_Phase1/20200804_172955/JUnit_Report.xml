@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001_Android_Phase1" time="105.127" tests="6" failures="0" errors="0">
+   <testsuite name="TS001_Android_Phase1" tests="6" failures="0" errors="0" time="105.127" timestamp="2020-08-04 17:30:16" hostname="blezel - 192.168.1.5" id="Test Suites/TS001_Android_Phase1">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/blezel/Katalon Studio/Todo_Application/Reports/20200804_172955/TS001_Android_Phase1/20200804_172955"/>
+         <property name="logFiles" value="/Users/blezel/Katalon Studio/Todo_Application/Reports/20200804_172955/TS001_Android_Phase1/20200804_172955/execution0.log, /Users/blezel/Katalon Studio/Todo_Application/Reports/20200804_172955/TS001_Android_Phase1/20200804_172955/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="blezel - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.17.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.17.1"/>
+         <property name="deviceModel" value="Android SDK built for x86_64"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/TS001_Case1_validSignup" time="61.93" classname="Test Cases/TS001_Case1_validSignup" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:30:16 - [TEST_CASE][PASSED] - Test Cases/TS001_Case1_validSignup: Test Cases/TS001_Case1_validSignup
+
+2020-08-04 17:30:20 - [TEST_STEP][PASSED] - comment("Story: To verify the signup function whether it will successfully register user using valid credentials"): Story: To verify the signup function whether it will successfully register user using valid credentials
+
+2020-08-04 17:30:21 - [MESSAGE][INFO] - Story: To verify the signup function whether it will successfully register user using valid credentials
+
+2020-08-04 17:30:21 - [TEST_STEP][PASSED] - startApplication(G_AndroidApp, false): Started app at: '/Users/blezel/Downloads/Goal_App/Android_APK/app.apk'
+
+2020-08-04 17:30:33 - [MESSAGE][INFO] - Appium server started on port 59,769
+
+2020-08-04 17:31:00 - [MESSAGE][PASSED] - Started app at: '/Users/blezel/Downloads/Goal_App/Android_APK/app.apk'
+
+2020-08-04 17:31:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("LoginScreen/loginScreenTitleText"), 10): Element 'Object Repository/LoginScreen/loginScreenTitleText' is exist
+
+2020-08-04 17:31:03 - [MESSAGE][PASSED] - Element 'Object Repository/LoginScreen/loginScreenTitleText' is exist
+
+2020-08-04 17:31:03 - [TEST_STEP][PASSED] - tap(findTestObject("SignupScreen/btnToRegisterScreen"), 10): Tapped on element 'Object Repository/SignupScreen/btnToRegisterScreen'
+
+2020-08-04 17:31:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/btnToRegisterScreen'
+
+2020-08-04 17:31:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SignupScreen/signUpNameField"), 10): Tapped on element 'Object Repository/SignupScreen/signUpNameField'
+
+2020-08-04 17:31:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/signUpNameField'
+
+2020-08-04 17:31:07 - [TEST_STEP][PASSED] - driverName = getDriver(): null
+
+2020-08-04 17:31:07 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("user5"): null
+
+2020-08-04 17:31:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SignupScreen/signUpEmailField"), 10): Tapped on element 'Object Repository/SignupScreen/signUpEmailField'
+
+2020-08-04 17:31:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/signUpEmailField'
+
+2020-08-04 17:31:09 - [TEST_STEP][PASSED] - driverEmail = getDriver(): null
+
+2020-08-04 17:31:09 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("user5@sample.com"): null
+
+2020-08-04 17:31:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SignupScreen/signUpPasswordField"), 10): Tapped on element 'Object Repository/SignupScreen/signUpPasswordField'
+
+2020-08-04 17:31:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/signUpPasswordField'
+
+2020-08-04 17:31:11 - [TEST_STEP][PASSED] - driverPass = getDriver(): null
+
+2020-08-04 17:31:11 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("123456"): null
+
+2020-08-04 17:31:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SignupScreen/signUpConfirmPasswordField"), 10): Tapped on element 'Object Repository/SignupScreen/signUpConfirmPasswordField'
+
+2020-08-04 17:31:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/signUpConfirmPasswordField'
+
+2020-08-04 17:31:13 - [TEST_STEP][PASSED] - driverPassConfirm = getDriver(): null
+
+2020-08-04 17:31:13 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("123456"): null
+
+2020-08-04 17:31:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SignupScreen/btnToSignUp"), 10): Tapped on element 'Object Repository/SignupScreen/btnToSignUp'
+
+2020-08-04 17:31:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignupScreen/btnToSignUp'
+
+2020-08-04 17:31:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/LoginScreen/SuccessMsgAfterSignUp"), 10): Element 'Object Repository/LoginScreen/SuccessMsgAfterSignUp' is exist
+
+2020-08-04 17:31:18 - [MESSAGE][PASSED] - Element 'Object Repository/LoginScreen/SuccessMsgAfterSignUp' is exist
+
+2020-08-04 17:31:18 - [TEST_STEP][PASSED] - successMsgSignup = getText(findTestObject("Object Repository/LoginScreen/SuccessMsgAfterSignUp"), 10): Text of element 'Object Repository/LoginScreen/SuccessMsgAfterSignUp' is: 'Registration successful, please log in.'
+
+2020-08-04 17:31:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginScreen/SuccessMsgAfterSignUp' is: 'Registration successful, please log in.'
+
+2020-08-04 17:31:18 - [TEST_STEP][PASSED] - verifyEqual(successMsgSignup, "Registration successful, please log in."): Actual object 'Registration successful, please log in.' and expected object 'Registration successful, please log in.' are equal
+
+2020-08-04 17:31:18 - [MESSAGE][PASSED] - Actual object 'Registration successful, please log in.' and expected object 'Registration successful, please log in.' are equal
+
+2020-08-04 17:31:18 - [TEST_STEP][PASSED] - comment(successMsgSignup): Registration successful, please log in.
+
+2020-08-04 17:31:18 - [MESSAGE][INFO] - Registration successful, please log in.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS001_Case2_validSignIn" time="5.973" classname="Test Cases/TS001_Case2_validSignIn" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:31:18 - [TEST_CASE][PASSED] - Test Cases/TS001_Case2_validSignIn: Test Cases/TS001_Case2_validSignIn
+
+2020-08-04 17:31:19 - [TEST_STEP][PASSED] - comment("Story: To verify the signin function whether it will successfully log in the user using valid credentials"): Story: To verify the signin function whether it will successfully log in the user using valid credentials
+
+2020-08-04 17:31:19 - [MESSAGE][INFO] - Story: To verify the signin function whether it will successfully log in the user using valid credentials
+
+2020-08-04 17:31:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginScreen/signInEmailField"), 10): Tapped on element 'Object Repository/LoginScreen/signInEmailField'
+
+2020-08-04 17:31:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginScreen/signInEmailField'
+
+2020-08-04 17:31:20 - [TEST_STEP][PASSED] - driverLoginEmail = getDriver(): null
+
+2020-08-04 17:31:20 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("user5@sample.com"): null
+
+2020-08-04 17:31:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginScreen/signInPasswordField"), 10): Tapped on element 'Object Repository/LoginScreen/signInPasswordField'
+
+2020-08-04 17:31:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginScreen/signInPasswordField'
+
+2020-08-04 17:31:22 - [TEST_STEP][PASSED] - driverLoginPass = getDriver(): null
+
+2020-08-04 17:31:23 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("123456"): null
+
+2020-08-04 17:31:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginScreen/btnToSignIn"), 10): Tapped on element 'Object Repository/LoginScreen/btnToSignIn'
+
+2020-08-04 17:31:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginScreen/btnToSignIn'
+
+2020-08-04 17:31:24 - [TEST_STEP][PASSED] - comment("Successfully login"): Successfully login
+
+2020-08-04 17:31:24 - [MESSAGE][INFO] - Successfully login]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS001_Case3_createNewTodo" time="18.869" classname="Test Cases/TS001_Case3_createNewTodo" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:31:24 - [TEST_CASE][PASSED] - Test Cases/TS001_Case3_createNewTodo: Test Cases/TS001_Case3_createNewTodo
+
+2020-08-04 17:31:25 - [TEST_STEP][PASSED] - comment("Story: To verify the create function for the ToDo App "): Story: To verify the create function for the ToDo App 
+
+2020-08-04 17:31:25 - [MESSAGE][INFO] - Story: To verify the create function for the ToDo App 
+
+2020-08-04 17:31:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/TodoList/todoListScreenTitle"), 10): Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:27 - [MESSAGE][PASSED] - Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-04 17:31:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-04 17:31:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/btnToAddTodo"), 10): Tapped on element 'Object Repository/TodoList/btnToAddTodo'
+
+2020-08-04 17:31:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/btnToAddTodo'
+
+2020-08-04 17:31:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/TodoList/newTodoField"), 10): Element 'Object Repository/TodoList/newTodoField' is exist
+
+2020-08-04 17:31:33 - [MESSAGE][PASSED] - Element 'Object Repository/TodoList/newTodoField' is exist
+
+2020-08-04 17:31:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/newTodoField"), 10): Tapped on element 'Object Repository/TodoList/newTodoField'
+
+2020-08-04 17:31:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/newTodoField'
+
+2020-08-04 17:31:34 - [TEST_STEP][PASSED] - driverNewTodo = getDriver(): null
+
+2020-08-04 17:31:34 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("Tasks01"): null
+
+2020-08-04 17:31:35 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2020-08-04 17:31:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2020-08-04 17:31:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/btnToSaveTodo"), 0): Tapped on element 'Object Repository/TodoList/btnToSaveTodo'
+
+2020-08-04 17:31:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-04 17:31:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/btnToSaveTodo'
+
+2020-08-04 17:31:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-04 17:31:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-04 17:31:43 - [TEST_STEP][PASSED] - comment("Successfully create a new task"): Successfully create a new task
+
+2020-08-04 17:31:43 - [MESSAGE][INFO] - Successfully create a new task]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS001_Case4_closeTask" time="2.76" classname="Test Cases/TS001_Case4_closeTask" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:31:43 - [TEST_CASE][PASSED] - Test Cases/TS001_Case4_closeTask: Test Cases/TS001_Case4_closeTask
+
+2020-08-04 17:31:43 - [TEST_STEP][PASSED] - comment("Story: To verify the closing of tasks function"): Story: To verify the closing of tasks function
+
+2020-08-04 17:31:43 - [MESSAGE][INFO] - Story: To verify the closing of tasks function
+
+2020-08-04 17:31:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/TodoList/todoListScreenTitle"), 10): Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:44 - [MESSAGE][PASSED] - Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/doneTodo"), 10): Tapped on element 'Object Repository/TodoList/doneTodo'
+
+2020-08-04 17:31:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/doneTodo'
+
+2020-08-04 17:31:44 - [TEST_STEP][PASSED] - donetaskMsg = getText(findTestObject("Object Repository/TodoList/taskCloseMsg"), 10): Text of element 'Object Repository/TodoList/taskCloseMsg' is: 'Task closed.'
+
+2020-08-04 17:31:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/TodoList/taskCloseMsg' is: 'Task closed.'
+
+2020-08-04 17:31:46 - [TEST_STEP][PASSED] - verifyEqual(donetaskMsg, "Task closed."): Actual object 'Task closed.' and expected object 'Task closed.' are equal
+
+2020-08-04 17:31:46 - [MESSAGE][PASSED] - Actual object 'Task closed.' and expected object 'Task closed.' are equal
+
+2020-08-04 17:31:46 - [TEST_STEP][PASSED] - comment("Successfully" + donetaskMsg): SuccessfullyTask closed.
+
+2020-08-04 17:31:46 - [MESSAGE][INFO] - SuccessfullyTask closed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS001_Case5_openDoneTask" time="4.615" classname="Test Cases/TS001_Case5_openDoneTask" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:31:46 - [TEST_CASE][PASSED] - Test Cases/TS001_Case5_openDoneTask: Test Cases/TS001_Case5_openDoneTask
+
+2020-08-04 17:31:46 - [TEST_STEP][PASSED] - comment("Story: To verify re-opsning the done tasks function"): Story: To verify re-opsning the done tasks function
+
+2020-08-04 17:31:46 - [MESSAGE][INFO] - Story: To verify re-opsning the done tasks function
+
+2020-08-04 17:31:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/TodoList/todoListScreenTitle"), 10): Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:46 - [MESSAGE][PASSED] - Element 'Object Repository/TodoList/todoListScreenTitle' is exist
+
+2020-08-04 17:31:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/tabforDoneTodo"), 10): Tapped on element 'Object Repository/TodoList/tabforDoneTodo'
+
+2020-08-04 17:31:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/tabforDoneTodo'
+
+2020-08-04 17:31:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/doneTodoinDoneTab"), 10): Tapped on element 'Object Repository/TodoList/doneTodoinDoneTab'
+
+2020-08-04 17:31:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/doneTodoinDoneTab'
+
+2020-08-04 17:31:48 - [TEST_STEP][PASSED] - openDonetaskMsg = getText(findTestObject("Object Repository/TodoList/taskOpenMsg"), 10): Text of element 'Object Repository/TodoList/taskOpenMsg' is: 'Task opened.'
+
+2020-08-04 17:31:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/TodoList/taskOpenMsg' is: 'Task opened.'
+
+2020-08-04 17:31:50 - [TEST_STEP][PASSED] - verifyEqual(openDonetaskMsg, "Task opened."): Actual object 'Task opened.' and expected object 'Task opened.' are equal
+
+2020-08-04 17:31:50 - [MESSAGE][PASSED] - Actual object 'Task opened.' and expected object 'Task opened.' are equal
+
+2020-08-04 17:31:50 - [TEST_STEP][PASSED] - comment("Successfully" + openDonetaskMsg): SuccessfullyTask opened.
+
+2020-08-04 17:31:50 - [MESSAGE][INFO] - SuccessfullyTask opened.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS001_Case6_logoutAccount" time="7.931" classname="Test Cases/TS001_Case6_logoutAccount" status="PASSED">
+         <system-out><![CDATA[2020-08-04 17:31:50 - [TEST_CASE][PASSED] - Test Cases/TS001_Case6_logoutAccount: Test Cases/TS001_Case6_logoutAccount
+
+2020-08-04 17:31:51 - [TEST_STEP][PASSED] - comment("Story: To verify the logout function"): Story: To verify the logout function
+
+2020-08-04 17:31:51 - [MESSAGE][INFO] - Story: To verify the logout function
+
+2020-08-04 17:31:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/profileIcon"), 10): Tapped on element 'Object Repository/TodoList/profileIcon'
+
+2020-08-04 17:31:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/profileIcon'
+
+2020-08-04 17:31:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-04 17:31:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-04 17:31:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TodoList/btnLogout"), 10): Tapped on element 'Object Repository/TodoList/btnLogout'
+
+2020-08-04 17:31:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TodoList/btnLogout'
+
+2020-08-04 17:31:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("LoginScreen/loginScreenTitleText"), 10): Element 'Object Repository/LoginScreen/loginScreenTitleText' is exist
+
+2020-08-04 17:31:58 - [MESSAGE][PASSED] - Element 'Object Repository/LoginScreen/loginScreenTitleText' is exist
+
+2020-08-04 17:31:58 - [TEST_STEP][PASSED] - comment("Successfully logs out the account"): Successfully logs out the account
+
+2020-08-04 17:31:58 - [MESSAGE][INFO] - Successfully logs out the account]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-04 17:30:16 - [TEST_SUITE][PASSED] - TS001_Android_Phase1: Test Cases/TS001_Case6_logoutAccount]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

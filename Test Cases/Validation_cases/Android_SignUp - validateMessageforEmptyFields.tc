@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is to check if there is any validations on the screens if the sign up fields are empty.</description>
+   <name>Android_SignUp - validateMessageforEmptyFields</name>
+   <tag></tag>
+   <comment>Story: Verify if validation messages for each field will show up when the fields are empty
+To check validation messages on each input fields</comment>
+   <testCaseGuid>2430eeff-7b62-4adb-9317-7b9aa4ffac37</testCaseGuid>
+   <variable>
+      <defaultValue>'blessuser01@sample.com'</defaultValue>
+      <description></description>
+      <id>087c19bd-c3bb-4743-9e0d-0065d10e3292</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>92b7f1c0-3179-43d5-bcdf-cc5ce08e35e6</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

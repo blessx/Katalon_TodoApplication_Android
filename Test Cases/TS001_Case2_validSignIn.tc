@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case2_validSignIn</name>
+   <tag></tag>
+   <comment>Story: To verify the signin function whether it will successfully log in the user using valid credentials
+Successfully login</comment>
+   <testCaseGuid>07009437-04bc-4dca-9202-0a7cd5350192</testCaseGuid>
+</TestCaseEntity>

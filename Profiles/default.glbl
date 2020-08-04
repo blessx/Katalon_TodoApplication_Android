@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/blezel/Downloads/Goal_App/Android_APK/app.apk'</initValue>
+      <name>G_AndroidApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20'</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/blezel/Downloads/Katalon_Studio_Automation_TodoApp/Testdata.xlsx'</initValue>
+      <name>G_TestData</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

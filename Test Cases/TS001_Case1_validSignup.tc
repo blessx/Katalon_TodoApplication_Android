@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case1_validSignup</name>
+   <tag></tag>
+   <comment>Story: To verify the signup function whether it will successfully register user using valid credentials
+successMsgSignup</comment>
+   <testCaseGuid>7c3d0ac4-3a21-48e6-9887-70dd6f0cd915</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case3_createNewTodo</name>
+   <tag></tag>
+   <comment>Story: To verify creating a todo function</comment>
+   <testCaseGuid>15c77d27-761a-4d0f-974d-e4d9f68a9f99</testCaseGuid>
+</TestCaseEntity>

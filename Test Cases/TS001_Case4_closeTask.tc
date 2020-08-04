@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS001_Case4_closeTask</name>
+   <tag></tag>
+   <comment>Successfully closed the task</comment>
+   <testCaseGuid>c35e92a5-af00-4fb0-9c36-c7e41a5078a9</testCaseGuid>
+</TestCaseEntity>
