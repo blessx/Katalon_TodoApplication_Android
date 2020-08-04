@@ -1,1 +1,1 @@
-# Katalon_TodoApplication_Android
+## This is a sample Katalon script for Android application
